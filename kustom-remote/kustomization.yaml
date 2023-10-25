@@ -1,0 +1,8 @@
+---
+namespace: staging
+images:
+  - name: srg1177/nginx
+    newTag: v1.0.1
+resources:
+  - namespace.yaml
+  - "github.com/srg1177/k8s-kustomize/deploy/base/"
